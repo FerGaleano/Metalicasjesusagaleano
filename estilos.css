@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.padre{
+    display:flex;
+    flex-flow:column nowrap;
+}
+   
+.header{
+    display:flex;
+    flex-flow: column nowrap;
+    background:url(wp7070126.jpg);
+    background-position: center;
+    background-attachment:contain;
+    background-size: cover;
+}
+
+.menu{
+    background: rgba(0,0,0,.1);
+    display:flex;
+    flex-flow: row nowrap;
+    height: 100px;
+    align-items: center;
+
+}
+
+.logo{ 
+    
+    
+    flex:1 1 auto;
+    
+}
+.logo a{
+    color:#fff;
+    font-size:20px;
+}
+.logo a:hover{
+    color:#343434;
+}
+.nav{
+
+    flex:5 1 auto;
+    
+}
+.nav a{
+    color:#fff;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+nav a:hover{
+    color:#343434;
+}
+
+.social{
+    
+    flex:1 1 auto;
+    display:flex;
+
+}
+.social a{
+    color:#fff;
+    font-size:15px;
+}
+.social a:hover{
+    color:#343434;
+}
+
+.textoprincipal{
+    display:flex;
+    height: 580px;
+    align-items: center;
+}
+
+h1{
+    color:#fff;
+    text-align: center;
+    font-size: 21px;
+}
+.section{
+    background: #000;
+    display: flex;
+}
+
+.articulo{
+    background: #22577a;
+    display: flex;
+    flex-flow: row wrap;
+    flex:2 1 auto;
+
+}
+
+.article{
+    background:#38a3a5;
+    flex:1 1 50px;
+    font-size: 13px;
+    margin: 10px 10px 0 0px;
+    color:#fff;
+}
+.article img{
+    width: 100%;
+}
+
+.navegacion{
+    background: #7D1935;
+    flex:1 1 100%;
+}
+.aside{
+    background: #000;
+    flex:1 1 auto;
+}
+.publicidad{
+    background: #DA0037;
+    
+
+}
+.footer{
+    background:#000;
+    display: flex;
+    justify-content: center;
+}
+.pie{
+    background: #08f000;
+    width: 300px;
+}
